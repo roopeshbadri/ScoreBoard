@@ -26,4 +26,11 @@ const threeAway = () => {
     awayScore += 3;
     awayScoreEl.innerHTML = awayScore
 }
-
+const homeReset = () => {
+    homeScoreEl.innerHTML = 0
+    homeScore=0
+}
+const awayReset = () => {
+    awayScoreEl.innerHTML = 0
+    awayScore=0
+}
