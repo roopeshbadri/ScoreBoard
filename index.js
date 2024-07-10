@@ -4,7 +4,7 @@ let awayScoreEl = document.getElementById("away-scoreel")
 let awayScore = 0
 const oneHome = () => {
     homeScore += 1;
-    homeScoreEl.innerHTML=homeScore
+    homeScoreEl.innerHTML = homeScore
 }
 const twoHome = () => {
     homeScore += 2;
@@ -28,9 +28,9 @@ const threeAway = () => {
 }
 const homeReset = () => {
     homeScoreEl.innerHTML = 0
-    homeScore=0
+    homeScore = 0
 }
 const awayReset = () => {
     awayScoreEl.innerHTML = 0
-    awayScore=0
+    awayScore = 0
 }
